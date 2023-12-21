@@ -17,7 +17,7 @@ public:
         return uniform_real_distribution<double>(l, r)(rng);
     }
 
-    long double nextLongDouble(double l, double r) {
+    long double nextLongDouble(long double l, long double r) {
         return uniform_real_distribution<long double>(l, r)(rng);
     }
 
