@@ -6,7 +6,20 @@ Themis & CMS Test Case Generator là công cụ sinh test đơn giản hỗ tr�
 - Sử dụng hệ điều hành Windows;
 - Cài đặt sẵn trình biên dịch GCC hỗ trợ C++11 trở lên.
 
-# Hướng dẫn cài đặt
+## Cài đặt
+Có hai cách để tải về repository:
+1. Nếu bạn sử dụng git, bạn có thể clone phiên bản mới nhất của repository bằng `git clone https://github.com/mynameiskhanhhh/themis-cms-test-case-generator`.
+2. Click vào **Code** $\rightarrow$ **Download ZIP** trên repository và giải nén thư mục sau khi tải về.
+
+## Sử dụng
+Sau khi clone (hoặc giải nén) xong, truy cập vào thư mục `src` (bạn có thể copy và paste thư mục này rồi đổi tên thành folder bạn muốn để dễ sắp xếp hơn).
+
+Bạn chỉ cần quan tâm đến hai file `generator.h` và `solution.cpp`.
+
+1. File `solution.cpp` là nơi bạn viết code AC của bài toán, sử dụng luồng nhập xuất `stdin`, `stdout` (kể cả khi sinh test bằng Themis). 
+2. File `generator.h` là nơi bạn viết trình sinh test. Bạn có thể tham khảo thêm cách sử dụng `generator.h` qua code ví dụ ở folder `sample`.
+
+Sau đó, lưu hết các file lại rồi khởi động file `run.bat`. Ở đây, bạn sẽ nhập vào lần lượt tên bài, số test và định dạng test (Themis hoặc CMS). Nếu bạn muốn thoát ra thì bạn có thể tắt command prompt hoặc sử dụng tổ hợp phím `Alt + F4`.
 
 ## Các tính năng sinh ngẫu nhiên
 Themis & CMS Test Case Generator hỗ trợ một số tính năng sinh ngẫu nhiên, sử dụng đối tượng `rnd`.
