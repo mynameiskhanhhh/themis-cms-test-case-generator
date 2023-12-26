@@ -16,7 +16,7 @@ Sau khi clone (hoặc giải nén) xong, truy cập vào thư mục `src` (bạn
 
 Bạn chỉ cần quan tâm đến hai file `generator.h` và `solution.cpp`.
 
-1. File `solution.cpp` là nơi bạn viết code AC của bài toán, sử dụng luồng nhập xuất `stdin`, `stdout` (kể cả khi sinh test bằng Themis). 
+1. File `solution.cpp` là nơi bạn viết code AC của bài toán, sử dụng luồng nhập xuất `stdin`, `stdout` (kể cả khi sinh test dạng Themis). 
 2. File `generator.h` là nơi bạn viết trình sinh test. Bạn có thể tham khảo thêm cách sử dụng `generator.h` qua code ví dụ ở folder `sample`.
 
 Sau đó, lưu hết các file lại rồi khởi động file `run.bat`. Ở đây, bạn sẽ nhập vào lần lượt tên bài, số test và định dạng test (Themis hoặc CMS). Nếu bạn muốn thoát ra thì bạn có thể tắt command prompt hoặc sử dụng tổ hợp phím `Alt + F4`.
