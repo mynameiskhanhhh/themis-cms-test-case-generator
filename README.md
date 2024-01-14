@@ -46,22 +46,22 @@ Trả về một số thực kiểu `long double` bất kỳ trong khoảng từ
 
 ### Sinh dãy ngẫu nhiên
 ```cpp
-int nextVectorInt(int sz, int l, int r)
+vector<int> nextVectorInt(int sz, int l, int r)
 ```
 Trả về một dãy số nguyên kiểu `int` bất kỳ có độ dài `sz` trong khoảng từ `l` đến `r`.
 
 ```cpp
-int nextVectorLongLong(int sz, long long l, long long r)
+vector<long long> nextVectorLongLong(int sz, long long l, long long r)
 ```
 Trả về một dãy số nguyên kiểu `long long` bất kỳ có độ dài `sz` trong khoảng từ `l` đến `r`.
 
 ```cpp
-int nextVectorDouble(int sz, double l, double r)
+vector<double> nextVectorDouble(int sz, double l, double r)
 ```
 Trả về một dãy số thực kiểu `double` bất kỳ có độ dài `sz` trong khoảng từ `l` đến `r`.
 
 ```cpp
-int nextVectorLongDouble(int sz, int l, int r)
+vector<long double> nextVectorLongDouble(int sz, int l, int r)
 ```
 Trả về một dãy số thực kiểu `long double` bất kỳ có độ dài `sz` trong khoảng từ `l` đến `r`.
 
